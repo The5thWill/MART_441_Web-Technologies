@@ -11,7 +11,10 @@ body {
 }
 
 
-
+.description-container {
+    min-height: 50vh;
+    font-size: 2em;
+}
 
 .description {
     margin: 25vh auto;
