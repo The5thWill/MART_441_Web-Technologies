@@ -1,99 +1,43 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <title>William Kirkpatrick</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Static site for Web Technologies.">
     <meta name="author" content="William Kirkpatrick">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./HW1/styles.css">
-</head>
 
-<body>
+    <title>William Kirkpatrick, An Introduction</title>
 
-    <div class="hero">
-        <div class="title">
-            <h1>Michael Cassens</h1>
-            <h2>MART 441 - Web Tech</h2>
-            <h2>Homework Site</h2>
-            <div class="nav">
-                <a href="#information">
-                    <div class="nav-item">Information</div>
-                </a>
-                <a href="#class-info">
-                    <div class="nav-item">Course Information</div>
-                </a>
-                <a href="">
-                    <div class="nav-item">Why Me?</div>
-                </a>
-            </div>
-        </div>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body class="background">
+
+      <a id="rotator">
+        <img class="small" src="./images/clipartkey-ufo.png" width="50"/>
+      </a>
+
+      <a href="https://theuselessweb.com/">
+        <img src="./images/Red-forest.png"
+        width="50" style="float:right">
+      </a>
+
+    <div class="bubble">
+      <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+      <h1>Main Theme</h1>
+      <p>My theme for this site is lo-fi space, which is sort of explained by the lo-fi playlist above. I wanted to do something sort of simple but still creative for the first week of class and I thought a lo-fi, or low fidelity, aesthetic was a good option! I wanted to include some of my other work, too, so I used a(n albiet simple) galaxy piece that I created myself as the background image, and I used elements that I learned from past personal and school projects to style the site. The other images used, the UFO and moon, are from the site ClipartKey, the playlist is by Feardog Music on YouTube, and the Secret Link (accessed via clicking the moon) is a popular random site generator that I just thought would be a fun inclusion that gave the moon more of a purpose.
     </div>
-    <!--end hero-->
 
-    <!-- Container that will "reveal" the background image. -->
-    <!-- This is our parallax-like effect. -->
-    <div id="information">
-        <div class="description-container">
-            <div class="description">
-
-                <h1>Information About Michael</h1>
-                <p>Michael Cassens is a teacher, a computer scientist, creative technologist, gamer, game developer</p>
-                <p>and mobile application developer.  His current practice and research is based on how to become a</p>
-                <p>better instructor, how to use gaming practices and theories to deliver better course content as well
-                <p>as build better and more interesting games for the market place using different games engines and
-                <p>mobile platforms.</p>
-                <p>As the Director of UM ESports, Michael focuses creating a community of
-                    inclusive and diverse students who like to play games with one another in a safe and accepting environment.
-                </p>
-
-            </div>
-        </div>
+    <div class="bubble">
+      <h1>About Me</h1>
+      <p>Hello! My name is Alec and I'm a junior, working towards my Bachelor's in Media Arts and a certification in Cybersecurity. I should be graduating in the next two years, maybe a year if I do classes during every semester, including summer and winter. I've been doing art for as long as I can remember (I made the background image of this site, actually) and have been crafting and customizing figurines for the past few years now. I've never professionally worked in an artistic field before but I plan to create a design portfolio this semester and use it to apply for jobs in a creative field this summer.
     </div>
-    <!-- End Parallax-Like -->
 
-    <!-- A fake menu, this will re-cover the background image. -->
-    <div class="menu" id="class-info">
-        <h1>Information about the Course</h1>
-        <div class="menu-group-container">
+    <div class="bubble">
+      <h1>What Makes Me Unique?</h1>
+      <p>I've been an artist for, quite literally, as long as I remember and I love to play with different types of design, so I pick up new mediums fairly quickly. I'm a bit of a jack-of-all-trades of art mediums; I've done everything from traditional sketching, to painting, to customizing, to jewelry-making, to woodwork.</p>
+    </div>
 
-            <div class="menu-group">
-
-                <div class="menu-head">Overview</div>
-                <div>
-                    <div class="menu-item">Building on the principles and techniques covered in Intro to Web Design ( MART 341 ), this project-based class focuses on media integration, interactivity, client-side development, and server-side development for the presentation and development of artistic websites.</div>
-                    <div class="menu-item">This online advanced web technologies course will explore the latest in web technologies. This will began with a refresher of HTML5 and CSS3. Next will be a thorough exploration of JavaScript (JS) for client-side site development and interaction. The final topic will touch on the power of JS and node.js for server-side development. A number of JavaScript libraries will be explored for how they can speed up the artistic process.</div>
-                </div>
-            </div>
-
-            <div class="menu-group">
-
-                <div class="menu-head">Objectives</div>
-                <div>
-                    <div class="menu-item">- Feel comfortable creating static sites with advanced HTML5 & CSS3 techniques.</div>
-                    <div class="menu-item">- Be capable of using JavaScript (JS) to create "interactive elements" and manipulate the DOM.</div>
-                    <div class="menu-item">- Be capable of incorporating external JS libraries, such as d3 or tone.js to create engaging sites.</div>
-                    <div class="menu-item">- Have a basic understanding of the role node.js plays in web development.</div>
-                    <div class="menu-item">- Be capable of creating a basic web-socket based web-app for multi-user interaction.</div>
-                </div>
-            </div>
-        </div>
-    </div> 
-
-
-                <div id="information">
-                    <div class="description-container">
-                        <div class="description">
-
-                            <h1>Why me?</h1>
-                            <p>I have worked in the industry for over 20 years. I specialize in small to medium sized businesses</p>
-                            <p>I focus on my clients.  I am a fast learner and I make sure that their needs are always addressed to the best of my ability.</p>
-
-                        </div>
-                    </div>
-                </div>
-        </div> <!-- End Menu -->
-</body>
+  </body>
 </html>
