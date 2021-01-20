@@ -22,7 +22,7 @@ body {
     text-align: center;
     width: 75%;
     min-width: 300px;
-    background-color: rgb(0, 70, 50);
+    background-color: rgb(180, 180, 180);
 
 }
 
@@ -32,12 +32,8 @@ body {
     }
 }
 
-/* Hero Image Rules */
+
 .hero {
-    /* the 'vh' unit asks the browser to */
-    /* return the height of the viewport */
-    /* we can then use that to set the height of an element */
-    /* as a percentage of the viewport height (vh) */
     height: 100vh;
     min-height: 740px;
     background-image: url("imgs/Forest.JPG");
@@ -130,12 +126,12 @@ body {
     }
 }
 
-/* Menu Rules */
+
 .menu {
     box-sizing: border-box;
     min-height: 100vh;
     padding: 2em;
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(0, 70, 50);
     color: #fff;
     font-family: 'Stylish', sans-serif;
     font-weight: 300;
