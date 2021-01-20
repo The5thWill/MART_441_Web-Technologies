@@ -17,10 +17,7 @@ body {
 }
 
 
-@media (max-width: 865px) {
-    .description-container {
-        font-size: 1.5em;
-    }
+
 }
 
 .description {
@@ -97,6 +94,7 @@ body {
     color: #fff;
     background-color: rgba(207, 200, 222, 0.5);
 }
+
 
 
 
