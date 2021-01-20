@@ -23,6 +23,15 @@ body {
     }
 }
 
+.description {
+    margin: 25vh auto;
+    padding: 1em;
+    text-align: center;
+    width: 75%;
+    min-width: 300px;
+    background-color: rgb(180, 180, 180);
+
+}
 
 .hero {
     height: 100vh;
