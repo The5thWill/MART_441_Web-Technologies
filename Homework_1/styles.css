@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-image: url("imgs/water3.JPG");
+    background-image: url("imgs/Forest.JPG");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,8 +10,7 @@ body {
     font-weight: 300;
 }
 
-/* Description Rules */
-/* Parallax-Like Effect */
+
 .description-container {
     min-height: 50vh;
     font-size: 2em;
@@ -23,7 +22,7 @@ body {
     text-align: center;
     width: 75%;
     min-width: 300px;
-    background-color: rgba(210, 210, 210, 0.8);
+    background-color: rgb(0, 70, 50);
 
 }
 
@@ -41,7 +40,7 @@ body {
     /* as a percentage of the viewport height (vh) */
     height: 100vh;
     min-height: 740px;
-    background-image: url("imgs/water3.JPG");
+    background-image: url("imgs/Forest.JPG");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
