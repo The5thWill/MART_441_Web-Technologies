@@ -10,15 +10,15 @@ function storyFunction(choice) {
       document.getElementById("story").innerHTML = "You turn to travel back along the long and winding pathe that led you here, but as you do so someone is approaching the tower";
       document.getElementById("choice1").innerHTML = "Greet them";
       document.getElementById("choice2").innerHTML = "Hide";
-  } else if (choice == 1 && answer1 == "Meet others") {
-      document.getElementById("story").innerHTML = "Pugster walks over to a group of dogs and says hello.  Pugster is trying to decide who is genuine or not.";
-      document.getElementById("choice1").innerHTML = "Evaluate all dogs";
-      document.getElementById("choice2").innerHTML = "Stay clear";
-  } else if (choice == 2 && answer2 == "Walk alone") {
-      document.getElementById("story").innerHTML = "Pugster starts to walk over to the dogs and then decides to go to the water instead.  Now what?'";
-      document.getElementById("choice1").innerHTML = "Go for a swim";
-      document.getElementById("choice2").innerHTML = "Get a drink";
-  } else if (choice == 1 && answer1 == "Go ahead and be brave") {
+  } else if (choice == 1 && answer1 == "Knock") {
+      document.getElementById("story").innerHTML = "The large doors slowly creak open revealing an unlit interior and no one holding them open.";
+      document.getElementById("choice1").innerHTML = "Light a torch";
+      document.getElementById("choice2").innerHTML = "Plunge into the darkness";
+  } else if (choice == 2 && answer2 == "Open them by force") {
+      document.getElementById("story").innerHTML = "You push and push and push, at first they seem not to budge, then they give way ever so slightly, but you quickly loose focus on the doors as you fall down due to the unexpected and well hidden trap door opening under you.";
+      document.getElementById("choice1").innerHTML = "Grab the edge";
+      document.getElementById("choice2").innerHTML = "Let yourself fall";
+  } else if (choice == 1 && answer1 == "Greet them") {
       document.getElementById("story").innerHTML = "Pugster decides to go in even with hesitation to make new friends.  Will it work?'";
       document.getElementById("choice1").innerHTML = "Yes it will work";
       document.getElementById("choice2").innerHTML = "No it will not work";
