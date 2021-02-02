@@ -1,0 +1,3 @@
+I like many have of course had good and bad times in my life and I have had many endeavors that have ended sometimes in success
+other times in failure. Academically I have always held myself to a higher standard and for the most part I have succeeded
+but last semester working through covid caused me a great many obstacles that halted my record of success and cause my worst semester grade wise of my life.  Athletically I was on the rowing crew for my highschool years which ended with me taking second in the Midwest region of the US, I had both failures and successes on that team, it was always hard work and it challenged me but what I got out of it was well worth it in my opinion. 
