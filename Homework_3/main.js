@@ -19,53 +19,52 @@ function storyFunction(choice) {
       document.getElementById("choice1").innerHTML = "Grab the edge";
       document.getElementById("choice2").innerHTML = "Let yourself fall";
   } else if (choice == 1 && answer1 == "Greet them") {
-      document.getElementById("story").innerHTML = "Pugster decides to go in even with hesitation to make new friends.  Will it work?'";
-      document.getElementById("choice1").innerHTML = "Yes it will work";
-      document.getElementById("choice2").innerHTML = "No it will not work";
-  } else if (choice == 2 && answer2 == "Scan the situation") {
-      document.getElementById("story").innerHTML = "Pugster decides to just look around for the moment. What should Pugster do now?";
-      document.getElementById("choice1").innerHTML = "Watch from afar";
-      document.getElementById("choice2").innerHTML = "Get in closer";
+      document.getElementById("story").innerHTML = "You introduce yourself and the figure in robes responds in kind telling you he is one of Valkyrus' acolytes Lucien'";
+      document.getElementById("choice1").innerHTML = "Ask him for help";
+      document.getElementById("choice2").innerHTML = "Continue to leave";
+  } else if (choice == 2 && answer2 == "Hide") {
+      document.getElementById("story").innerHTML = "You dive into bushes next to the door, and wait as the figure approaches and then begins to open the door";
+      document.getElementById("choice1").innerHTML = "Slip inside";
+      document.getElementById("choice2").innerHTML = "Stay hidden";
   }
-  // need to do these
-  else if (choice == 1 && answer1 == "Evaluate all dogs") {
-      document.getElementById("story").innerHTML = "Pugster decides that evaluation is the best option." + "<br>Restart?";
-      document.getElementById("choice1").innerHTML = "Yes restart";
-      document.getElementById("choice2").innerHTML = "No quit";
-  } else if (choice == 2 && answer2 == "Stay clear") {
-      document.getElementById("story").innerHTML = "Pugster decides staying away is the best option" + "<br>Restart?";
-      document.getElementById("choice1").innerHTML = "Yes restart";
-      document.getElementById("choice2").innerHTML = "No quit";
-  } else if (choice == 1 && answer1 == "Go for a swim") {
-      document.getElementById("story").innerHTML = "Pugster decides that swimming sounds most fun" + "<br>Restart?";
-      document.getElementById("choice1").innerHTML = "Yes restart";
-      document.getElementById("choice2").innerHTML = "No quit";
-  } else if (choice == 2 && answer2 == "Get a drink") {
-      document.getElementById("story").innerHTML = "Pugster decides it's time to drink" + "<br>Restart?";
-      document.getElementById("choice1").innerHTML = "Yes restart";
-      document.getElementById("choice2").innerHTML = "No quit";
-  } else if (choice == 1 && answer1 == "Yes it will work") {
-      document.getElementById("story").innerHTML = "Pugster thinks, yeah this will work out." + "<br>Restart?";
-      document.getElementById("choice1").innerHTML = "Yes restart";
-      document.getElementById("choice2").innerHTML = "No quit";
-  } else if (choice == 2 && answer2 == "No it will not work") {
-      document.getElementById("story").innerHTML = "Pugster thinks, I don't think this will work out." + "<br>Restart?";
-      document.getElementById("choice1").innerHTML = "Yes restart";
-      document.getElementById("choice2").innerHTML = "No quit";
-  } else if (choice == 1 && answer1 == "Watch from afar") {
-      document.getElementById("story").innerHTML = "Pugster decides it's time to just watch from a distance for safety." + "<br>Restart?";
-      document.getElementById("choice1").innerHTML = "Yes restart";
-      document.getElementById("choice2").innerHTML = "No quit";
-  } else if (choice == 2 && answer2 == "Get in closer") {
-      document.getElementById("story").innerHTML = "Pugster decides to get just a little closer, but not engage." + "<br>Restart?";
-      document.getElementById("choice1").innerHTML = "Yes restart";
-      document.getElementById("choice2").innerHTML = "No quit";
-  } else if (choice == 1 && answer1 == "Yes restart") {
-      document.getElementById("story").innerHTML = "Our fearless leader, 'Pugster' has entered the dog park for the first time. Scared? Yes, but willing to give it a try. Are you ready to start on adventure with Pugster?";
+  else if (choice == 1 && answer1 == "Light a torch") {
+      document.getElementById("story").innerHTML = "A large foyer reveals itself before you, a large chandeler hangs in the middle of two staircase leading to a balcony.";
+      document.getElementById("choice1").innerHTML = "Search the room";
+      document.getElementById("choice2").innerHTML = "Go upstairs";
+  } else if (choice == 2 && answer2 == "Plunge into the darkness") {
+      document.getElementById("story").innerHTML = "To be continued" + "<br>Restart?";
+      document.getElementById("choice1").innerHTML = "Restart";
+      document.getElementById("choice2").innerHTML = "Quit";
+  } else if (choice == 1 && answer1 == "Grab the edge") {
+      document.getElementById("story").innerHTML = "To be continued" + "<br>Restart?";
+      document.getElementById("choice1").innerHTML = "Restart";
+      document.getElementById("choice2").innerHTML = "Quit";
+  } else if (choice == 2 && answer2 == "Let yourself fall") {
+      document.getElementById("story").innerHTML = "To be continued" + "<br>Restart?";
+      document.getElementById("choice1").innerHTML = "Restart";
+      document.getElementById("choice2").innerHTML = "Quit";
+  } else if (choice == 1 && answer1 == "Ask him for help") {
+      document.getElementById("story").innerHTML = "To be continued" + "<br>Restart?";
+      document.getElementById("choice1").innerHTML = "Restart";
+      document.getElementById("choice2").innerHTML = "Quit";
+  } else if (choice == 2 && answer2 == "Continue to leave") {
+      document.getElementById("story").innerHTML = "Lucien does not bar your pass and lets you go avoiding adventure and wealth, but also the possible danger" + "<br>Restart?";
+      document.getElementById("choice1").innerHTML = "Restart";
+      document.getElementById("choice2").innerHTML = "Quit";
+  } else if (choice == 1 && answer1 == "Slip inside") {
+      document.getElementById("story").innerHTML = "To be continued" + "<br>Restart?";
+      document.getElementById("choice1").innerHTML = "Restart";
+      document.getElementById("choice2").innerHTML = "Quit";
+  } else if (choice == 2 && answer2 == "Stay hidden") {
+      document.getElementById("story").innerHTML = "To be continued" + "<br>Restart?";
+      document.getElementById("choice1").innerHTML = "Restart";
+      document.getElementById("choice2").innerHTML = "Quit";
+  } else if (choice == 1 && answer1 == "Restart") {
+      document.getElementById("story").innerHTML = "You have come upon the imposing stature of the tower of The Great Wizard Valkyrus, are you ready to enter?";
       document.getElementById("choice1").innerHTML = "Yes";
       document.getElementById("choice2").innerHTML = "No";
-  } else if (choice == 2 && answer2 == "No quit") {
-      document.getElementById("story").innerHTML = "Pugster thanks you!";
+  } else if (choice == 2 && answer2 == "Quit") {
+      document.getElementById("story").innerHTML = "The Tower still awaits";
 
   }
 
