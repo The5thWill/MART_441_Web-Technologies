@@ -1,0 +1,77 @@
+<html>
+    <style>
+        body{
+            background-color: rgb(255,215,157);
+        }
+    </style>
+    <script>
+        function getChoice1()
+        {
+            var myChoice = document.getElementById("choice").value;
+            var myQuestion = document.getElementById("question");
+            if(myChoice === "Home")
+            {
+                document.getElementById("choice").style.display="none";
+                document.getElementById("btnSubmit").style.display="none";
+
+                document.getElementById("choice2").style.display="block";
+                document.getElementById("btnSubmit2").style.display="block";
+                document.getElementById("mainImage").src = "house.jpg"
+
+                myQuestion.innerHTML = "You made the turn and a few blocks later you are pulling into your driveway. Do you want to go straight to bed or go to the kitchen for a snack?";
+            }
+            else if(myChoice === "Bar")
+            {
+              document.getElementById("mainImage").src = "bar.jpg"
+                myQuestion.innerHTML = "You keep on and pull up to the bar. Would you prefer shots or a glass?";
+
+            }
+            else
+            {
+                myQuestion.innerHTML = "Invalid answer";
+            }
+
+        }
+        function getChoice2()
+        {
+            var food = document.getElementById("choice2").value;
+            var myQuestion = document.getElementById("question");
+            if(food === "shots")
+            {
+                document.getElementById("mainImage").src = "shots.jpg"
+                myQuestion.innerHTML = "So your going a bit wild and have a great night out full on partying, although the morning may not be so plesent";
+            }
+            else if(food === "glass")
+            {
+              document.getElementById("mainImage").src = "beer.jpg"
+                myQuestion.innerHTML = "You have a great time relaxing and talking to some others who frequent your favorite hangout, and you think you will thank yourself tomorrow that you did not go too heavy.";
+            }
+        }
+    </script>
+    <body>
+
+        <h1>A Wednesday Night</h1>
+        <br>
+        <img src="night.jpeg" id="mainImage">
+    <div id="question">
+    <br>
+        It was a long and exaughsting day at work.  You are now on your way home late in the evening and are coming up
+        <br>
+        on an important intersection.  You are tired of course but you think a drink and some time out may do you some good.
+        <br>
+        Do you want to head straight and go to the bar or turn right and head home
+    </div>
+
+        <br>
+        <input type="text" size="30" id="choice" value="Please enter Home or Bar">
+        <button id="btnSubmit" onclick="getChoice1();">Click to continue</button>
+
+        <input type="text" size="30" id="choice2" value="Enter favorite food (tacos or nachos)." style="display:none">
+        <button id="btnSubmit2" onclick="getChoice2();"  style="display:none">Click to continue</button>
+
+        <input type="text" size="30" id="choice3" value="Enter favorite movie."  style="display:none">
+        <button id="btnSubmit3" onclick="getChoice3();" style="display:none">Click to continue</button>
+
+    </body>
+
+</html>
