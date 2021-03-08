@@ -17,8 +17,8 @@ class ViewFinder
 }
 function initializeArray()
 {
-    var myViewFinder = new ViewFinder("A really funny Pug");
-    var myViewFinder1 = new ViewFinder("A really angry tiger");
+    var myViewFinder = new ViewFinder("");
+    var myViewFinder1 = new ViewFinder("");
     myViewFinderArray.push(myViewFinder);
     myViewFinderArray.push(myViewFinder1);
 }
