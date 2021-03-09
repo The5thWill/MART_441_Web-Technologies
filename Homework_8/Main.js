@@ -19,7 +19,7 @@ class Info{
 }
 function initializeArray()
 {
-    var = new Info("#Land", "images/dog.jpg");
+    var = new Info("#Land", "images/Land.jpg");
     all.push;
 }
 $(document).ready(function(){

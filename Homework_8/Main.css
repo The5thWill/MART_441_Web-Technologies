@@ -1,19 +1,21 @@
 body{
-    background-color: ;
+    background-color: Black;
+    text-decoration-color: White;
 }
 #square{
       width: 100px;
       height: 100px;
-      background: red;
+      background: blue;
       position: absolute;
       left: 0;
       top: 400;
     }
-.stuff{
-      background: blue;
+#third{
+      background: red;
       color:white;
     }
-#third{
+
+.stuff{
       background: green;
       color:white;
     }
