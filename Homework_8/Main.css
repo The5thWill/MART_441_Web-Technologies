@@ -3,8 +3,8 @@ body{
     text-decoration-color: White;
 }
 #square{
-      width: 100px;
-      height: 100px;
+      width: 200px;
+      height: 200px;
       background: blue;
       position: absolute;
       left: 0;
