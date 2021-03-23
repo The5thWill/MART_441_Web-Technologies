@@ -1,0 +1,6 @@
+#myCanvas {
+  border: rgb(0,15,40);
+  border-width: 20px;
+  background-color: rgb(176, 226, 243);
+  border-style: double;
+}
