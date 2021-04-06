@@ -109,6 +109,13 @@ function create() {
 
     this.physics.add.collider(player, bombs, hitBomb, null, this);
 }
+function Update ()
+ {
+   if (Input.GetButtonDown("Jump"))
+   {
+   }
+ }
+
 
 function update() {
     if (gameOver) {
