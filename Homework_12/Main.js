@@ -31,6 +31,7 @@ var game = new Phaser.Game(config);
 
 function preload() {
     this.load.image('sky', '../assets/sky.png');
+    this.load.image('spikes', '../assets/spikes.png');
     this.load.image('ground', '../assets/platform.png');
     this.load.image('star', '../assets/star.png');
     this.load.image('bomb', '../assets/bomb.png');
@@ -46,6 +47,13 @@ function create() {
     platforms.create(400, 568, 'ground').setScale(2).refreshBody();
     platforms.create(600, 400, 'ground');
     platforms.create(50, 250, 'ground');
+    platforms.create(750, 220, 'ground');
+    platforms.create(200, 250, 'ground');
+    spikes.create(605, 400, 'hitSpikes');
+    spikes.create(55, 250, 'hitSpikes');
+    spikes.create(755, 220, 'hitSpikes');
+    spikes.create(205, 250, 'hitSpikes');
+    platforms.create(40, 70, 'ground');
     platforms.create(750, 220, 'ground');
     player = this.physics.add.sprite(100, 450, 'dude');
     player.setBounce(0.2);
@@ -87,6 +95,8 @@ function create() {
             x: 12,
             y: 0,
             stepX: 70
+            this.gravity = 0.05;
+            this.gravitySpeed = .05;
         }
     });
 
@@ -105,6 +115,7 @@ function create() {
     this.physics.add.collider(player, platforms);
     this.physics.add.collider(stars, platforms);
     this.physics.add.collider(bombs, platforms);
+    this.physics.add.collider(player, spikes);
     this.physics.add.overlap(player, stars, collectStar, null, this);
 
     this.physics.add.collider(player, bombs, hitBomb, null, this);
@@ -172,4 +183,14 @@ function hitBomb(player, bomb) {
     player.anims.play('turn');
 
     gameOver = true;
+
+function hitSpikes(player, spikes) {
+        this.physics.pause();
+
+        player.setTint(0xff0000);
+
+        player.anims.play('turn');
+
+        gameOver = true;
+
 }
