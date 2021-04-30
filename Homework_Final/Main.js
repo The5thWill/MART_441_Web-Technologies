@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let timerId
   let score = 0
   const colors = [
-    'orange',
+    'rgb(217,137,116)',
     'red',
     'purple',
     'green',
@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function rotate() {
     undraw()
     currentRotation ++
-    if(currentRotation === current.length) { //if the current rotation gets to 4, make it go back to 0
+    if(currentRotation === current.length) {
       currentRotation = 0
     }
     current = theTetrominoes[random][currentRotation]
@@ -170,11 +170,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   const upNextTetrominoes = [
-    [1, displayWidth+1, displayWidth*2+1, 2], //lTetromino
-    [0, displayWidth, displayWidth+1, displayWidth*2+1], //zTetromino
-    [1, displayWidth, displayWidth+1, displayWidth+2], //tTetromino
-    [0, 1, displayWidth, displayWidth+1], //oTetromino
-    [1, displayWidth+1, displayWidth*2+1, displayWidth*3+1] //iTetromino
+    [1, displayWidth+1, displayWidth*2+1, 2],
+    [0, displayWidth, displayWidth+1, displayWidth*2+1],
+    [1, displayWidth, displayWidth+1, displayWidth+2],
+    [0, 1, displayWidth, displayWidth+1],
+    [1, displayWidth+1, displayWidth*2+1, displayWidth*3+1]
   ]
 
   function displayShape() {
