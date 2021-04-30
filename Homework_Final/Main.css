@@ -1,8 +1,7 @@
-
+backgroundColor: rgb(221,213,195)
 .container {
 display: flex;
 }
-
 
 .grid {
 width: 200px;

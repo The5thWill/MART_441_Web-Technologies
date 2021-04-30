@@ -8,11 +8,11 @@ document.addEventListener('DOMContentLoaded', () => {
   let timerId
   let score = 0
   const colors = [
+    'rgb(234,165,130)',
     'rgb(217,137,116)',
-    'red',
-    'purple',
-    'green',
-    'blue'
+    'rgb(123,96,141)',
+    'rgb(130,193,122)',
+    'rgb(194,206,194)'
   ]
 
   const lTetromino = [
